@@ -1,2 +1,2 @@
 git add .
-git commit -m "feat: add new feature"   
+git commit -m "$1"   
