@@ -1,6 +1,6 @@
 # mini-webpack
 
-手写一个简易版的webpack
+手写一个简易版的打包器
 
 本教程将带着大家一步一步制作一个简易的 webpack。
 
