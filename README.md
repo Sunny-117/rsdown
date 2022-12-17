@@ -4,7 +4,6 @@
 
 本教程将带着大家一步一步制作一个简易的 webpack。
 
-https://github.com/Sunny-117/mini-webpack
 
 ## 准备工作
 
@@ -31,6 +30,8 @@ export function say(name) {
   return `hello ${name}`;
 }
 ```
+
+
 
 ```js
 // tool1.js
@@ -440,6 +441,3 @@ new Complier(options).run();
 6. **输出资源**：根据入口和模块之间的依赖关系，组装成一个个包含多个模块的 `Chunk`，再把每个 Chunk 转换成一个单独的文件加入到输出列表，这步是可以修改输出内容的最后机会
 7. **输出完成**：在确定好输出内容后，根据配置确定输出的路径和文件名，把文件内容写入到文件系统
 
----
-
--*EOF*-
