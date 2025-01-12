@@ -8,8 +8,6 @@ English|[简体中文](./README.md)
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-# rsdown
-
 A high-performance JavaScript/TypeScript code transformer powered by Rust and SWC.
 
 ## Features
