@@ -8,8 +8,6 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![许可证][license-src]][license-href]
 
-# rsdown
-
 一个高性能的 JavaScript/TypeScript 代码转换器，基于 Rust 和 SWC。
 
 ## 特性
