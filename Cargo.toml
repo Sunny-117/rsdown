@@ -1,0 +1,20 @@
+[package]
+name = "rsdown"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = [ "cdylib" ]
+name = "rsdown"
+
+[dependencies]
+napi = { version = "2.15.1", features = [ "napi4" ] }
+napi-derive = "2.15.0"
+swc_common = { version = "0.33.12", features = [ "tty-emitter" ] }
+swc_ecma_parser = "0.141.29"
+swc_ecma_ast = "0.110.9"
+swc_ecma_visit = "0.96.11"
+swc_ecma_codegen = "0.146.29"
+
+[build-dependencies]
+napi-build = "2.1.2"
